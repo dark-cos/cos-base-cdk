@@ -1,4 +1,15 @@
 
+# Cos-dark base cdk template
+
+Key features
+1. Credential synthesizer users local CLI credentials to deploy instead of default admin bootstrap permissions
+2. Includes custom bootstrap template without default Admin IAM permissions
+
+# Bootstrapping your environment
+
+To use the custom bootstrap, from a cdk environment, run `cdk bootstrap --template bootstrap-template-no-iam.yaml`
+https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html
+
 # Welcome to your CDK Python project!
 
 This is a blank project for CDK development with Python.
