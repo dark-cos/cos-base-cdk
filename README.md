@@ -1,5 +1,5 @@
 
-# Cos-dark base cdk template
+# Cos base cdk template
 
 Key features
 1. Credential synthesizer users local CLI credentials to deploy instead of default admin bootstrap permissions
